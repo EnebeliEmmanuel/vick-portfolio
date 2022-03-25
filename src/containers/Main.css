@@ -1,0 +1,5 @@
+.dark-mode {
+  background-color:  #252525;
+  color: white;
+  transition: "0.1s";
+}
