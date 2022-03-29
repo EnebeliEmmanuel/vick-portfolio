@@ -48,10 +48,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
-              alt="man sitting on table"
-              src="https://user-images.githubusercontent.com/58889001/160700775-f9d947b9-d220-4021-99df-4f822d8b8882.png"
-            />
+            
           </div>
         </div>
       </div>
