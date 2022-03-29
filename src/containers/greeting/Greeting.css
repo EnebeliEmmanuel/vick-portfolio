@@ -44,16 +44,8 @@
 }
 
 .greeting-image-div > img {
-   background-color: #fdde6d;
-  width: 220px;
-  height: 220px;
- 
-  border-radius: 100%;
-  margin-left: 30px;
-  background-image: url(../../assets/images/vicky.png);
-
-  object-position: center;
-  background-size: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .wave-emoji {
