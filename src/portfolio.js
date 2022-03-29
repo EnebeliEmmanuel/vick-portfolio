@@ -281,7 +281,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "victoria here again. and did i tell you am also a  Technical Writer. I write notes on web development that help beginners have an easier learning journey. I started this blog as a way to pen down my experience and knowledge gained on my tech journey, writing in a simpler and more relatable way on topics that I had learned before, with the hope that beginners, in particular, would have an easier path than I did when I first started learning how to code. I am also passionate about making the web accessible to everyone because I believe that everyone irrespective of their disability deserves the right to a good user experience on the web.",
+    "I am also a technical writer! i write notes on Web2, Web3 and DataScience.It all started as a way to pen down my experience and knowledge gained in my tech journey, writing in a simpler and more relatable way on various concepts in tech.The goal is to help beginners have an easier learning journey and of course contribute to the wealth of knowledge of even professionals .",
   blogs: [
     {
       url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",
