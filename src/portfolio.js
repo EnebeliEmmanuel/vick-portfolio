@@ -300,6 +300,29 @@ const blogSection = {
   display: true, // Set false to hide this section, defaults to true
 };
 
+//Blockchain event section
+
+const blogChainEvents = {
+  title: "Blogs",
+  subtitle:
+    "I am also a technical writer! i write notes on Web2, Web3 and DataScience.It all started as a way to pen down my experience and knowledge gained in my tech journey, writing in a simpler and more relatable way on various concepts in tech.The goal is to help beginners have an easier learning journey and of course contribute to the wealth of knowledge of even professionals .",
+  blogs: [
+    {
+      url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",
+      title: "Multisig stands for multi-signature, read to learn more",
+      description:
+        "Multisig stands for multi-signature, which is a specific type of digital signature that makes it possible for two or more users to sign documents as a group. Therefore, a multi-signature is produced through the combination of multiple unique signatures.",
+    },
+    /**  {
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Why REACT is The Best?",
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },*/
+  ],
+  display: true, // Set false to hide this section, defaults to true
+};
+
 // Talks Sections
 
 const talkSection = {
@@ -331,9 +354,10 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open to all.",
   number: "+234 (706) 7860912 ",
-  email_address: "enebelivicki@gmail.com",
+  number: "+234 (248) 48679",
+  email_address: "enebelivicki@gmail.com"
 };
 
 // Twitter Section
@@ -359,4 +383,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
+  blogChainEvents,
 };
