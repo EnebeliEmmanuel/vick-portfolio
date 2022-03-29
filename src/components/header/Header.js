@@ -69,7 +69,7 @@ function Header() {
           )}
           {viewBlockChain && (
             <li>
-              <a href="#events">Blockchain Events</a>
+              <a href="#events">Events</a>
             </li>
           )}
           {viewTalks && (
