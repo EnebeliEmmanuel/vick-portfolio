@@ -3,7 +3,7 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
 
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 

@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import "./Blog.css";
 import BlogCard from "../../components/blogCard/BlogCard";
-import { blogSection } from "../../portfolio";
+import { blockchainSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
   const { isDark } = useContext(StyleContext);
-  if (!blogSection.display) {
+  if (!blockchainSection.display) {
     return null;
   }
   return (
