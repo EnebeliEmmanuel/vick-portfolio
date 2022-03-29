@@ -12,7 +12,7 @@ import {
   blockchainSection,
   talkSection,
   achievementSection,
-  blockchainSection,
+  
 } from "../../portfolio";
 
 function Header() {
@@ -22,11 +22,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
-<<<<<<< HEAD
-  const viewBlockchain = blockchainSection.display;
-=======
   const viewBlockChain = blockchainSection.display
->>>>>>> c3629c3b36e5024c5765a6b92b182f8e6b99aa4f
   const viewTalks = talkSection.display;
 
   return (
@@ -71,15 +67,9 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
-<<<<<<< HEAD
-           {viewBlockchain && (
-            <li>
-              <a href="#events">Blockchains</a>
-=======
           {viewBlockChain && (
             <li>
-              <a href="#blockChainSection">Blogs</a>
->>>>>>> c3629c3b36e5024c5765a6b92b182f8e6b99aa4f
+              <a href="#events">Blockchain Events</a>
             </li>
           )}
           {viewTalks && (

@@ -8,11 +8,7 @@ import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
-<<<<<<< HEAD
-import Blockchains from "./blockchains/Blockchains"
-=======
-import Blockchain  from "../components/Blockchain/blockChainEvents";
->>>>>>> c3629c3b36e5024c5765a6b92b182f8e6b99aa4f
+import Blockchains  from "./blockchain/Blockchains";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
