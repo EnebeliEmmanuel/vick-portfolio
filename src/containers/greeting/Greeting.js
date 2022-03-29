@@ -3,6 +3,7 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
 
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
@@ -50,8 +51,8 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="man sitting on table"
-              src="https://user-images.githubusercontent.com/58889001/160683960-e8098535-78e0-44bd-a9b1-6184519efc57.png"
-            />
+              src={require("https://user-images.githubusercontent.com/58889001/160683960-e8098535-78e0-44bd-a9b1-6184519efc57.png")}
+            ></img>
           </div>
         </div>
       </div>
