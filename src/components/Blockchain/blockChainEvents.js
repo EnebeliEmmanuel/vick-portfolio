@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Blog.css";
-import BlogCard from "../../components/blogCard/BlogCard";
+import BlogCard from "../blogCard/BlogCard";
 import { blockchainSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
