@@ -44,8 +44,16 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+   background-color: #fdde6d;
+  width: 220px;
+  height: 220px;
+ 
+  border-radius: 100%;
+  margin-left: 30px;
+  background-image: url(https://user-images.githubusercontent.com/58889001/160683960-e8098535-78e0-44bd-a9b1-6184519efc57.png);
+
+  object-position: center;
+  background-size: cover;
 }
 
 .wave-emoji {

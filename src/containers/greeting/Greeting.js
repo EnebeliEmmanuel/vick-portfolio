@@ -49,10 +49,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
-              alt="man sitting on table"
-              src={require("https://user-images.githubusercontent.com/58889001/160683960-e8098535-78e0-44bd-a9b1-6184519efc57.png")}
-            ></img>
+            
           </div>
         </div>
       </div>
