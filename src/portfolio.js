@@ -302,7 +302,7 @@ const blogSection = {
 
 //Blockchain event section
 
-const blogChainEvents = {
+const blockchainSection = {
   title: "BlockchainEvents",
   subtitle:
     "I am also a technical writer! i write notes on Web2, Web3 and DataScience.It all started as a way to pen down my experience and knowledge gained in my tech journey, writing in a simpler and more relatable way on various concepts in tech.The goal is to help beginners have an easier learning journey and of course contribute to the wealth of knowledge of even professionals .",
@@ -383,5 +383,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  blogChainEvents,
+  blockchainSection,
 };
