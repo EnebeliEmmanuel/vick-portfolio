@@ -322,7 +322,7 @@ const blogSection = {
 const blockchainSection = {
   title: "Blockchain Events",
   subtitle:
-    "I am also good at giving speeches/educating the public on different concepts in the blockchain space.Feel free to reach out to me on upcoming blockchain events! then feature there the  blockchain event i have talked in ",
+    "I am also good at giving speeches/educating the public on different concepts in the blockchain space.Feel free to reach out to me on upcoming blockchain events!",
   events: [
     {
       url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",
