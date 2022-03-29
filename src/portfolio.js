@@ -306,7 +306,7 @@ const blockchainSection = {
   title: "BlockchainEvents",
   subtitle:
     "I am also a technical writer! i write notes on Web2, Web3 and DataScience.It all started as a way to pen down my experience and knowledge gained in my tech journey, writing in a simpler and more relatable way on various concepts in tech.The goal is to help beginners have an easier learning journey and of course contribute to the wealth of knowledge of even professionals .",
-  blogs: [
+  blockchainEvents: [
     {
       url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",
       title: "Multisig stands for multi-signature, read to learn more",
