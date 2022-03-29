@@ -12,7 +12,7 @@ const greeting = {
   username: "VICTORIA",
   title: "Hi all, I'm Victoria Enebeli",
   subTitle: emoji(
-    "Mathematician || Python || solidity || Frontend-developer || Data Science || Blockchain || Developer Advocate @0xpolygon || Blockchain Mentor @ Zuri inc || follow me for more details on my social handles below."
+    "Mathematician || Python || Solidity || Frontend-developer || Data Science || Blockchain || Developer Advocate @0xpolygon || Blockchain Mentor @ Zuri inc || follow me for more details on my social handles below."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1nfRwL2o57ZA2aD9jN-Hvcr-oipl-deKY_6cjW4CJMHE/edit?usp=sharing",
@@ -333,7 +333,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+234 (706) 7860912 ",
-  email_address: "Enebelivicky@gmail.com",
+  email_address: "enebelivicki@gmail.com",
 };
 
 // Twitter Section
