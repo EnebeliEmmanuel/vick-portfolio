@@ -12,7 +12,7 @@ const greeting = {
   username: "VICTORIA",
   title: "Hi all, I'm Victoria Enebeli",
   subTitle: emoji(
-    "Mathematician || Python || solidity || Frontend-developer || Data Science || Blockchain || Developer Advocate @0xpolygon || Blockchain Mentor @ Zuri inc || follow me for more details on my social handles below."
+    "Mathematician || Python || Solidity || Frontend-developer || Data Science || Blockchain || Developer Advocate @0xpolygon || Blockchain Mentor @ Zuri inc || follow me for more details on my social handles below."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1nfRwL2o57ZA2aD9jN-Hvcr-oipl-deKY_6cjW4CJMHE/edit?usp=sharing",
@@ -281,8 +281,50 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "victoria here again. and did i tell you am also a  Technical Writer. I write notes on web development that help beginners have an easier learning journey. I started this blog as a way to pen down my experience and knowledge gained on my tech journey, writing in a simpler and more relatable way on topics that I had learned before, with the hope that beginners, in particular, would have an easier path than I did when I first started learning how to code. I am also passionate about making the web accessible to everyone because I believe that everyone irrespective of their disability deserves the right to a good user experience on the web.",
+    "I am also a technical writer! i write notes on Web2, Web3 and DataScience.It all started as a way to pen down my experience and knowledge gained in my tech journey, writing in a simpler and more relatable way on various concepts in tech.The goal is to help beginners have an easier learning journey and of course contribute to the wealth of knowledge of even professionals.",
   blogs: [
+    {
+      url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",
+      title:
+        "Multisig stands for multi-signature, read to learn more",
+      description:
+        "Multisig stands for multi-signature, which is a specific type of digital signature that makes it possible for two or more users to sign documents as a group. Therefore, a multi-signature is produced through the combination of multiple unique signatures.",
+
+        
+    },
+
+    
+     {
+      url: "https://medium.com/@enebelivicki/solidity-tutorial-reference-types-4ef35fbbacc8",
+      title: "Solidity Tutorial: Reference Types",
+      description:
+        "Reference type variables are variables that store the location of the data.",
+    },
+
+    {
+      url: "https://medium.com/@enebelivicki/solidity-tutorial-all-about-value-types-cbbcdb100c29",
+      title: "Solidity Tutorial : All about Value Types.",
+      description:
+        "Solidity is a statically typed language, which means that we need to specify the type of each variable.",
+    },
+
+    {
+      url: "https://medium.com/@enebelivicki/practice-end-to-end-machine-learning-economic-outlook-6750ddc1f5f6",
+      title: "PRACTICE END TO END MACHINE LEARNING (ECONOMIC OUTLOOK)",
+      description:
+        "The core reason behind this piece of work is to put a thorough exploratory data analysis and key visualizations that drive critical insights in analytics and statistics in details. ",
+    },
+  ],
+  
+  display: true, // Set false to hide this section, defaults to true
+};
+
+//blochainsection
+const blockchainSection = {
+  title: "Blockchain Events",
+  subtitle:
+    "I am also good at giving speeches/educating the public on different concepts in the blockchain space.Feel free to reach out to me on upcoming blockchain events! then feature there the  blockchain event i have talked in ",
+  events: [
     {
       url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",
       title:
@@ -331,8 +373,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open to all.",
   number: "+234 (706) 7860912 ",
+  
   email_address: "Enebelivicky@gmail.com",
 };
 
@@ -355,6 +398,7 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
+  blockchainSection,
   talkSection,
   podcastSection,
   contactInfo,
