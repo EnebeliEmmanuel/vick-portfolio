@@ -67,7 +67,11 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          
+          {viewBlockChain && (
+            <li>
+              <a href="#events">Blockchain Events</a>
+            </li>
+          )}
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>

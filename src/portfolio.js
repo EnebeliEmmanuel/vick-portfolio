@@ -375,7 +375,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open to all.",
   number: "+234 (706) 7860912 ",
-  number: "+234 (248) 48679",
+ 
   email_address: "enebelivicki@gmail.com"
 };
 
