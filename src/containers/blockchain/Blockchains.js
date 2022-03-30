@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import "./Blockchain.css";
+
 import BlogCard from "../../components/blogCard/BlogCard";
 import {blockchainSection} from "../../portfolio";
 import {Fade} from "react-reveal";

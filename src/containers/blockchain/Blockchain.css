@@ -1,4 +1,21 @@
-/*Blog Cards Layout*/
+
+
+:root {
+  --veryDarkBlue: hsl(233, 47%, 7%);
+  --darkDesaturatedBlue: hsl(244, 38%, 16%);
+  --softViolet: hsl(277, 64%, 61%);
+
+  --white: hsl(0, 0%, 100%);
+  --slightlyTransparentWhiteMain: hsla(0, 0%, 100%, 0.75);
+  --slightlyTransparentWhiteHeading: hsla(0, 0%, 100%, 0.6);
+}
+
+
+
+.projects-section {
+  margin-top: 80px;
+}
+
 .project-image-container {
   overflow: hidden;
   width: 100%;
@@ -6,11 +23,12 @@
 }
 
 .project-image {
-  width: 100%;
-  object-fit: cover;
+   width: 100%;
+object-fit: cover;
   object-position: center;
   background-attachment: fixed;
   background-size: cover;
+  
 }
 
 .project-content {
@@ -26,23 +44,6 @@
   line-height: 30px;
   height: 30px;
   overflow: hidden;
-}
-.project-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 40px;
-  width: 80%;
-  height: 100%;
-  margin: 30px auto 0 auto;
-}
-
-.projects-section > p {
-  color: rgb(212, 212, 212);
-  text-align: center;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 60px;
 }
 
 .about-project {
@@ -65,10 +66,7 @@
   font-weight: normal;
 }
 
-.check-project > a:hover {
-  transition: all 0.2s ease-in;
-  color: #fdde6d;
-}
+
 
 div.a-project-card {
   position: relative;
@@ -88,34 +86,538 @@ div.a-project-card:hover {
   transition-timing-function: linear;
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .blog-header-text {
-    font-size: 40px;
+.my-mobile-image-container:hover {
+  margin-top: -10px;
+}
+
+.copyright-container > p {
+  text-align: center;
+  color: #e1e1e1;
+  line-height: 30px;
+}
+
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 20px);
+  }
+  100% {
+    left: 0;
+    margin: 0 -35px 0 20px;
   }
 }
-@media (max-width: 768px) {
-  .blog-header-text {
+
+@keyframes typing-2 {
+  100% {
+    left: 100%;
+    margin: 0 -30px 0 30px;
+  }
+}
+
+@keyframes stack-animation {
+  100% {
+    margin-left: -1570px;
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 700px) {
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #131517;
+    padding: 0px 5% 0px 5%;
+    overflow: hidden;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+
+  .main-logo {
+    width: 100px;
+    position: relative;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.3s;
+  }
+
+  .main-logo:hover {
+    transform: rotate(360deg);
+  }
+
+  #nav-links > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  li > a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 0 20px 0 20px;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  #toogle {
+    display: none;
+  }
+
+  .download-cv {
+    background-color: #fdde6d;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 157px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131517;
+  }
+
+  .download-cv > i {
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .my-mobile-image-container {
+    display: none;
+  }
+
+  .css-typewriting-container .static-text {
+    font-size: 55px;
+    color: #e1e1e1;
+    font-weight: 700;
+  }
+
+  .css-typewriting-container .dynamic-text {
+    margin-left: 15px;
+    height: 56px;
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .dynamic-text li {
+    list-style: none;
+    color: #fdde6d;
+  }
+
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 65px;
+    width: 100%;
+    background: #131517;
+    border-left: 2px solid #fdde6d;
+    animation: typing 2.5s steps(10) infinite;
+  }
+
+  .css-typewriting-container-2 .static-text-2 {
+    font-weight: 300;
     font-size: 30px;
-    text-align: center;
+    color: #e1e1e1;
   }
-  .blog-subtitle {
-    font-size: 16px;
-    line-height: normal;
-    text-align: center;
+
+  .css-typewriting-container-2 .dynamic-text-2 {
+    margin-left: 10px;
+    height: 33px;
+    font-size: 30px;
+    font-weight: 400;
+    overflow: hidden;
   }
+
+  .dynamic-text-2 li {
+    list-style: none;
+    color: #fdde6d;
+    position: relative;
+    top: 0;
+    animation: slide-2 15s steps(3) infinite;
+  }
+
+  .download-cv:hover {
+    background-color: #131517;
+    color: #fdde6d !important;
+    border: 1px solid #fdde6d;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .about-me-content > p {
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px 150px 0px 0px;
+  }
+
   .project-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 40px;
     width: 80%;
     height: 100%;
     margin: 30px auto 0 auto;
   }
+
+  .projects-section > p {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .my-image-container {
+    position: relative;
+    transition-property: margin-top;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+
+  .my-image-container:hover {
+    margin-top: -20px;
+  }
+
+  @keyframes typing-2 {
+    100% {
+      left: 100%;
+      margin: 0 -30px 0 30px;
+    }
+  }
+
+  @keyframes slide-2 {
+    100% {
+      top: -105px;
+      margin: 0 0 0 0;
+    }
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+      border-radius: 100%;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      border-radius: 100%;
+    }
+  }
 }
 
-@media screen and (max-width: 480px) and (min-width: 300px) {
+
+
+/* Tone down the animation to avoid vestibular motion triggers like scaling or panning large objects. */
+prefers-reduced-motion {
+  /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+
+  div.stacks-animation {
+    display: grid;
+    grid-template-columns: 1fr ;
+    text-align: center;
+  }
+   
+
+
+
+
+  
+
+
+
+
+
+
+}
+
+
+@media all and (min-width: 395px) {
+
+  div.stacks-animation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    text-align: center;
+  }
+  
+  
+  
+  @keyframes circle {
+    from {
+      box-shadow: 0 0 0 0px #fdde6d;
+    }
+    to {
+      box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+    }
+  }
+  
+
+
+
+
+
+
+
+}
+
+@media all and (min-width: 420px) {
+
+  div.stacks-animation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    text-align: center;
+  }
+
+}
+
+@media all and (max-width: 700px) {
+  nav {
+    height: 100px;
+    width: 100%;
+    display: block;
+    position: fixed;
+    z-index: 10;
+    background-color: #131517;
+  }
+    
+.lf  p{
+ color: var(--slightlyTransparentWhiteMain);
+     font-size: 1em;
+       line-height: 1.5em;
+        padding: 1.5em 1em 2em;
+          font-family: "Inter";
+          text-align: center;
+}
+
+.added {
+     font-size: 3em;
+       line-height: 1.5em;
+        padding: 1.5em 1em 2em;
+          font-family: "Inter";
+          text-align: center;
+           color: var(--slightlyTransparentWhiteMain);
+           position: relative;
+           top: 2em;
+}
+@keyframes circle {
+  from {
+    box-shadow: 0 0 0 0px #fdde6d;
+  }
+  to {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+  }
+}
+
+
+
+  
+
+  .mini-mobile-nav {
+    padding: 0px 10px 15px 10px;
+  }
+
+  .main-logo {
+    width: 80px;
+    position: relative;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0.3s;
+  }
+
+  .main-logo:hover {
+    transform: rotate(360deg);
+  }
+
+  #nav-links {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    transition-duration: 0.2s;
+    transition:  0.4s ease-in-out;
+    margin-top: -120%;
+    background-color: #131517;
+    z-index: 5 !important;
+  }
+
+  #nav-links > ul {
+    list-style: none;
+  }
+
+  li > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    line-height: 20px;
+    padding: 15px 0 15px 0;
+  }
+
+  .download-cv-btn {
+    color: #131517;
+    display: flex;
+    justify-content: center;
+    background-color: #131517;
+    transition: all 3s ease-in-out;
+    padding-bottom: 20px;
+  }
+
+  .download-cv > i {
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .download-cv-btn > * {
+    background-color: #fdde6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #131517 !important;
+    text-decoration: none;
+  }
+
+  #toogle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+  }
+
+  #toogle::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 28px;
+    background-color: #ffffff;
+    transform: translateY(-5px);
+    transition: 0.2s;
+  }
+
+  #toogle::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 28px;
+    background-color: #ffffff;
+    transform: translateY(5px);
+    transition: 1s;
+  }
+
+  #toogle.active::before {
+    transform: translateY(0px) rotate(45deg);
+  }
+
+  #toogle.active::after {
+    transform: translateY(0px) rotate(-45deg);
+  }
+
+  #nav-links.active {
+    transition: all 1.7s ease-in;
+    margin-top: 0 !important;
+  }
+
+  .css-typewriting-container .static-text {
+    font-size: 30px;
+    color: #e1e1e1;
+  }
+
+  .css-typewriting-container .dynamic-text {
+    margin-left: 10px;
+    font-size: 30px;
+  }
+
+  .dynamic-text li {
+    list-style: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fdde6d;
+  }
+
+  
+
+  .css-typewriting-container-2 .static-text-2 {
+    font-weight: 200;
+    font-size: 20px;
+    color: #fdfcfc;
+  }
+
+  .css-typewriting-container-2 .dynamic-text-2 {
+    margin-left: 5px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 300;
+    overflow: hidden;
+  }
+
+  .dynamic-text-2 li {
+    list-style: none;
+    color: #fdde6d;
+    position: relative;
+    top: 0;
+    
+  }
+
+  .about-me {
+    margin-top: 90px !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-me-content > p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+  }
+
+
   .project-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -127,8 +629,8 @@ div.a-project-card:hover {
     color: #ffffff;
     text-align: center;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 35px;
+    line-height: 50px;
   }
 
   .a-project-card {
@@ -139,5 +641,58 @@ div.a-project-card:hover {
   .projects-section > p {
     font-size: 30px;
     font-weight: 500;
+  }
+
+  .contact-me > div {
+    font-size: 30px !important;
+  }
+
+  @keyframes slide-2 {
+    100% {
+      top: -70px;
+      margin: 0 0 0 0;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-me {
+    flex-direction: column;
+  }
+
+  .my-mobile-image-container {
+    display: block !important;
+    margin: 30px auto 0 auto;
+  }
+
+  .my-image-container {
+    display: none;
+  }
+ 
+  
+  
+  
+
+
+}
+
+
+
+/* Tone down the animation to avoid vestibular motion triggers like scaling or panning large objects. */
+ prefers-reduced-motion {
+  /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
