@@ -17,16 +17,16 @@ export default function Blockchains() {
         <div >
           <div class="a-project-card">
             <div class="project-image-container">
-              <img class="project-image" src="./images/staking-ui.png" alt="" />
+              <img class="project-image" src="https://user-images.githubusercontent.com/58889001/160825363-1aae2f7e-506d-4d0f-a50c-2862f5311b22.png" alt="" />
             </div>
             <div class="project-content">
-              <p>React app for staking</p>
+              <p>Wallet By Victoria Enebeli</p>
               <div class="about-project">
-                Built a simple mvp(still improving) react app to interact with #smartcontract on #Rinkeby test network.
+               Improving your solidity skills
               </div>
               <div class="check-project">
                
-                <a href="https://kokotoken-ui.koko-code.tech/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.youtube.com/watch?v=xJWcjDP3Nd8" target="_blank" rel="noopener noreferrer"
                   ><i class="fas fa-external-link-alt"></i
                 ></a>
               </div>
@@ -37,16 +37,16 @@ export default function Blockchains() {
         <div >
           <div class="a-project-card">
             <div class="project-image-container">
-              <img class="project-image" src="./images/countdown-timer.png" alt="" />
+              <img class="project-image" src="https://user-images.githubusercontent.com/58889001/160826288-f019ef00-2654-4591-917d-f27bc4cde11b.png" alt="" />
             </div>
             <div class="project-content">
-              <p>Launchdown-timer</p>
+              <p>Onboarding</p>
               <div class="about-project">
-                This is just a simple and beautiful design of a launchdown-timer using html,css and javascript
+                This is me welcoming the interns into Blockgames
               </div>
               <div class="check-project">
                
-                <a href="http://countdown-sepia.vercel.app/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.youtube.com/watch?v=rPP7tDpF93Q" target="_blank" rel="noopener noreferrer"
                   ><i class="fas fa-external-link-alt"></i
                 ></a>
               </div>
@@ -56,16 +56,16 @@ export default function Blockchains() {
         <div >
           <div class="a-project-card">
             <div class="project-image-container">
-              <img class="project-image" src="./images/woodlanding-page.png" alt="" />
+              <img class="project-image" src="https://user-images.githubusercontent.com/58889001/160827662-5c5a67cd-8b99-4596-ae95-a039ff11db92.png" alt="" />
             </div>
             <div class="project-content">
-              <p>wood-landing-page</p>
+              <p>Introduction To Ethereum Network/Blockchain</p>
               <div class="about-project">
-                A simple and beatiful wood-landing-page with a simple and intuitive UI. Built with html, css,javascript to advertis ur finest woods.
+               Introduction to Ethereum Blockchain- Learn how to build on top of the blockchain.
               </div>
               <div class="check-project">
                 
-                <a href="http://wood-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.youtube.com/watch?v=RZKhslGrWJA" target="_blank" rel="noopener noreferrer"
                   ><i class="fas fa-external-link-alt"></i
                 ></a>
               </div>
@@ -76,16 +76,16 @@ export default function Blockchains() {
         <div >
           <div class="a-project-card">
             <div class="project-image-container">
-              <img class="project-image" src="./images/responsive-code-compnent.png" alt=""  />
+              <img class="project-image" src="https://user-images.githubusercontent.com/58889001/160828627-940cb43b-d3d2-485e-a217-324ce73f92b0.png" alt=""  />
             </div>
             <div class="project-content">
-              <p>responsive-code-compnent</p>
+              <p>Finalty in Blockchain</p>
               <div class="about-project">
-                well this is just a simple responsive-code-component built with html,css and flex-box
+                Why is transanction finalty essential.
               </div>
               <div class="check-project">
                
-                <a href="http://flex-box-project-ivory.vercel.app/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.youtube.com/watch?v=aZ6UyazaDHI" target="_blank" rel="noopener noreferrer"
                   ><i class="fas fa-external-link-alt"></i
                 ></a>
               </div>
@@ -95,18 +95,16 @@ export default function Blockchains() {
         <div >
           <div class="a-project-card">
             <div class="project-image-container">
-              <img class="project-image" src="./images/blog-landing-page.jpg" alt="" />
+              <img class="project-image" src="https://user-images.githubusercontent.com/58889001/160829039-27d36757-0ebb-4705-ade9-57e75cef1cd4.png" alt="" />
             </div>
             <div class="project-content">
-              <p>blog-landing-page</p>
+              <p>Event attended</p>
               <div class="about-project">
-                A simple blog-landing-page with a simple and intuitive UI. Built with html, css,javascript, and tailwind css.
+                Join us as we build a community of blockchain enthusiasist.
               </div>
               <div class="check-project">
                
-                <a href="https://EnebeliEmmanuel.github.io/blog-landing-page" target="_blank" rel="noopener noreferrer"
-                  ><i class="fas fa-external-link-alt"></i
-                ></a>
+                
               </div>
             </div>
           </div>
@@ -115,16 +113,16 @@ export default function Blockchains() {
         <div >
           <div class="a-project-card">
             <div class="project-image-container">
-              <img class="project-image" src="./images/social-proof-section.jpg" alt="" />
+              <img class="project-image" src="https://user-images.githubusercontent.com/58889001/160830129-d0d01bb3-76b4-4976-8667-d44d356cc4b6.png" alt="" />
             </div>
             <div class="project-content">
-              <p>social-proof-section</p>
+              <p>Multisig wallet</p>
               <div class="about-project">
-                social-proof-section is a simple layout with the idea of you being able to monitor your buisness growth feedbacks
+              Multisig stands for multi-signature, read and learn more.
               </div>
               <div class="check-project">
                 
-                <a href="http://social-proof-section-vert.vercel.app/" target="_blank" rel="noopener noreferrer"
+                <a href="https://medium.com/@enebelivicki/multisig-wallet-558247618024" target="_blank" rel="noopener noreferrer"
                   ><i class="fas fa-external-link-alt"></i
                 ></a>
               </div>
