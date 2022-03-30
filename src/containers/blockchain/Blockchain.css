@@ -30,7 +30,7 @@
 }
 .project-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 40px;
   width: 80%;
@@ -83,13 +83,6 @@ div.a-project-card:hover {
   margin-top: -10px;
 }
 
-.my-mobile-image-container {
-  position: relative;
-  transition-property: margin-top;
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
-}
-
   
   /* Media Query */
   @media (max-width: 1380px) {
@@ -109,7 +102,7 @@ div.a-project-card:hover {
     }
     .project-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-column-gap: 30px;
       grid-row-gap: 40px;
       width: 80%;
