@@ -9,7 +9,7 @@ import {
   skillsSection,
   openSource,
   blogSection,
-  
+  blockchainSection,
   talkSection,
   achievementSection,
   
@@ -22,7 +22,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
-
+  const viewBlockChain = blockchainSection.display
   const viewTalks = talkSection.display;
 
   return (
@@ -67,7 +67,11 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          
+          {viewBlockChain && (
+            <li>
+              <a href="#blockchains">Events</a>
+            </li>
+          )}
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>

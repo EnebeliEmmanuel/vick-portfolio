@@ -323,14 +323,26 @@ const blockchainSection = {
   title: "Blockchain Events",
   subtitle:
     "I am also good at giving speeches/educating the public on different concepts in the blockchain space.Feel free to reach out to me on upcoming blockchain events!",
-  events: [
+  blockchains: [
     {
-      url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",
-      title:
-        "Multisig stands for multi-signature, read to learn more",
-      description:
-        "Multisig stands for multi-signature, which is a specific type of digital signature that makes it possible for two or more users to sign documents as a group. Therefore, a multi-signature is produced through the combination of multiple unique signatures.",
+      iframe: <iframe src="https://www.youtube.com/embed/rPP7tDpF93Q" height="100em" height="300rem" paddig-right="3em" width="100%"/>,
+      url: "https://www.youtube.com/embed/rPP7tDpF93Q"
     },
+
+    {
+      iframe: <iframe src="https://www.youtube.com/embed/xJWcjDP3Nd8" height="100em" height="300rem" paddig-right="3em" width="100%"/>,
+      url: "https://www.youtube.com/embed/xJWcjDP3Nd8"
+    },
+    {
+      iframe: <iframe src="https://www.youtube.com/embed/aZ6UyazaDHI" height="100em" height="300rem" paddig-right="3em" width="100%"/>,
+      url: "https://www.youtube.com/embed/aZ6UyazaDHI"
+    },
+    {
+      iframe: <iframe src="https://www.youtube.com/embed/RZKhslGrWJA" height="100em" height="300rem" paddig-right="3em" width="100%"/>,
+      url: "https://www.youtube.com/embed/RZKhslGrWJA"
+    },
+    
+
     /**  {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
