@@ -6,12 +6,11 @@
 }
 
 .project-image {
-   width: 100%;
-   object-fit: cover;
+  width: 100%;
+  object-fit: cover;
   object-position: center;
   background-attachment: fixed;
   background-size: cover;
-  
 }
 
 .project-content {
@@ -30,7 +29,7 @@
 }
 .project-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 40px;
   width: 80%;
@@ -45,7 +44,6 @@
   font-size: 45px;
   line-height: 60px;
 }
-
 
 .about-project {
   color: rgba(255, 255, 255, 0.7);
@@ -90,59 +88,56 @@ div.a-project-card:hover {
   transition-timing-function: linear;
 }
 
-  
-  /* Media Query */
-  @media (max-width: 1380px) {
-    .blog-header-text {
-      font-size: 40px;
-    }
+/* Media Query */
+@media (max-width: 1380px) {
+  .blog-header-text {
+    font-size: 40px;
   }
-  @media (max-width: 768px) {
-    .blog-header-text {
-      font-size: 30px;
-      text-align: center;
-    }
-    .blog-subtitle {
-      font-size: 16px;
-      line-height: normal;
-      text-align: center;
-    }
-    .project-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 30px;
-      grid-row-gap: 40px;
-      width: 80%;
-      height: 100%;
-      margin: 30px auto 0 auto;
-    }
+}
+@media (max-width: 768px) {
+  .blog-header-text {
+    font-size: 30px;
+    text-align: center;
   }
-  
-  @media screen and (max-width: 480px) and (min-width: 300px) {
-   
-    .project-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      margin: 20px 13%;
-      grid-gap: 30px;
-    }
-  
-    .projects-section > p {
-      color: #ffffff;
-      text-align: center;
-      font-weight: 600;
-      font-size: 15px;
-      line-height: 30px;
-    }
-  
-    .a-project-card {
-      width: 100%;
-      border-radius: 10px;
-    }
-  
-    .projects-section > p {
-      font-size: 30px;
-      font-weight: 500;
-    }
+  .blog-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
   }
-  
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    width: 80%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 13%;
+    grid-gap: 30px;
+  }
+
+  .projects-section > p {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .a-project-card {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .projects-section > p {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
