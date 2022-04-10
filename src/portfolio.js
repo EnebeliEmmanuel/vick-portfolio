@@ -38,17 +38,27 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About me",
-  subTitle: "I am result-driven and passionate about the intersection between Blockchain and Data science. As well as an advocate for mainstream adoption of Blockchain. I'am currently a developer advocate for the Polygon Blockchain in Nigeria.Constantly striving to learn, grow and use my skills in Python, reactJs and solidity In view to drive positive changes in the space. I have  a good knowledge of frontend and In my free time, I contributes to LadiesDoTech || Web3 Ladies, an open-source community of ladies, building and pushing more ladies into the Blockchain space. ",
-  
+  subTitle: (
+    <p align="center">
+      {" "}
+      I am result-driven and passionate about the intersection between
+      Blockchain and Data science. As well as an advocate for mainstream
+      adoption of Blockchain. I'am currently a developer advocate for the
+      Polygon Blockchain in Nigeria and a blockchain mentor{" "}
+      <a href="https://blockgames.gg/">blockgames.gg</a>, a blockchain program
+      handled by <a href="https://zuri.team/">zuri inc</a> in partnership with{" "}
+      <a href="https://nestcoin.com/">Nestcoin</a>. I am constantly striving to
+      learn, grow and use my skills in Python, reactJs and solidity to drive
+      positive changes in the space. I have a good knowledge of frontend. In my
+      free time, I contributes to LadiesDoTech || Web3 Ladies, an open-source
+      community of ladies, building and pushing more ladies into the Blockchain
+      space.
+    </p>
+  ),
   skills: [
-    emoji(
-      "⚡ Built a model for Breast Cancer Detection"
-      
-    ),
+    emoji("⚡ Built a model for Breast Cancer Detection"),
     emoji("⚡ Built a model to predict inflation in Nigeria"),
-    emoji(
-      "⚡ Published an article on AI/MACHINE LEARNING on Medium "
-    ),
+    emoji("⚡ Published an article on AI/MACHINE LEARNING on Medium "),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -280,7 +290,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:"I am also a technical writer! i write notes on Web2, Web3 and DataScience.It all started as a way to pen down my experience and knowledge gained in my tech journey, writing in a simpler and more relatable way on various concepts in tech.The goal is to help beginners have an easier learning journey and of course contribute to the wealth of knowledge of even professionals .",
+  subtitle:"I am also a technical writer with a focus on writing Web2, Web3 and DataScience related articles. It all started as a way to pen down my experience and knowledge gained in my tech journey, writing in a simpler and more relatable way on various concepts in tech.The goal is to help beginners have an easier learning journey and of course contribute to the wealth of knowledge of even professionals .",
   blogs: [
     {
       url: "https://medium.com/@enebelivicki/multisig-wallet-558247618024",

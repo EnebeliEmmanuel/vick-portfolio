@@ -1,7 +1,7 @@
 /* header */
 
 .dark-menu {
-  background-color: #131517 !important;
+  background-color: #171c28 !important;
   color: white;
 }
 
@@ -72,7 +72,7 @@
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
- 
+  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
@@ -167,3 +167,4 @@
     font-size: 12px;
   }
 }
+
