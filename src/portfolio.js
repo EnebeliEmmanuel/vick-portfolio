@@ -30,7 +30,7 @@ const socialMediaLinks = {
   medium: "https://medium.com/@enebelivicki",
   //stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
 
-  twitter: "https://twitter.com/maths_hanty_",
+  twitter: "https://twitter.com/iamveektoria",
   display: true, // Set true to display this section, defaults to false
 };
 
